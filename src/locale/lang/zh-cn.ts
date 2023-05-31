@@ -13,7 +13,7 @@ export const zhCN = {
         locale: '切换语言',
       },
       openai: {
-        title: 'OpenAI',
+        title: 'Project Kai',
         key: '',
       },
       replicate: {},
