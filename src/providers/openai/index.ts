@@ -84,7 +84,7 @@ const providerOpenAI = () => {
       {
         id: 'image_generation',
         type: 'image_generation',
-        name: 'DALL·E',
+        name: 'Generate Image',
         settings: [],
       },
     ],
