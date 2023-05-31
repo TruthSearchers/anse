@@ -9,7 +9,7 @@ const providerReplicate = () => {
     globalSettings: [
       {
         key: 'token',
-        name: 'Replicate API token',
+        name: 'Token',
         type: 'api-key',
       },
     ],
