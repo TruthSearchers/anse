@@ -13,7 +13,7 @@ export const en = {
         locale: 'Change system language',
       },
       openai: {
-        title: 'OpenAI',
+        title: 'Project Kai',
         key: '',
       },
       replicate: {},
