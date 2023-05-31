@@ -8,7 +8,7 @@ const providerOpenAI = () => {
   const provider: Provider = {
     id: 'provider-openai',
     icon: 'i-simple-icons-openai', // @unocss-include
-    name: 'OpenAI',
+    name: 'Project Kai',
     globalSettings: [
       {
         key: 'apiKey',
@@ -18,22 +18,22 @@ const providerOpenAI = () => {
       {
         key: 'baseUrl',
         name: 'Base URL',
-        description: 'Custom base url for OpenAI API.',
+        description: 'Custom base url for Project Kai API.',
         type: 'input',
-        default: 'https://api.openai.com',
+        default: 'https://www.theprojectkai.com',
       },
       {
         key: 'model',
-        name: 'OpenAI model',
-        description: 'Custom gpt model for OpenAI API.',
+        name: 'Project Kai model',
+        description: 'Custom gpt model for Project Kai API.',
         type: 'select',
         options: [
-          { value: 'gpt-3.5-turbo', label: 'gpt-3.5-turbo' },
-          { value: 'gpt-4', label: 'gpt-4' },
-          { value: 'gpt-4-0314', label: 'gpt-4-0314' },
-          { value: 'gpt-4-32k', label: 'gpt-4-32k' },
-          { value: 'gpt-4-32k-0314', label: 'gpt-4-32k-0314' },
-          { value: 'gpt-3.5-turbo-0301', label: 'gpt-3.5-turbo-0301' },
+          { value: 'gpt-3.5-turbo', label: 'model1' },
+          { value: 'gpt-4', label: 'model2' },
+          { value: 'gpt-4-0314', label: 'model3' },
+          { value: 'gpt-4-32k', label: 'model4' },
+          { value: 'gpt-4-32k-0314', label: 'model5' },
+          { value: 'gpt-3.5-turbo-0301', label: 'model6' },
         ],
         default: 'gpt-3.5-turbo',
       },
