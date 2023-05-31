@@ -12,13 +12,13 @@ const providerOpenAI = () => {
     globalSettings: [
       {
         key: 'apiKey',
-        name: 'API Key',
+        name: 'Key',
         type: 'api-key',
       },
       {
         key: 'baseUrl',
-        name: 'Base URL',
-        description: 'Custom base url for Project Kai API.',
+        name: 'Connection to GPU URL',
+        description: 'Custom url for Project Kai API.',
         type: 'input',
         default: 'https://www.theprojectkai.com',
       },
