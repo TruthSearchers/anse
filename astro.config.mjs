@@ -37,9 +37,9 @@ export default defineConfig({
       process.env.OUTPUT !== 'netlify' && VitePWA({
         registerType: 'autoUpdate',
         manifest: {
-          name: 'Anse',
-          short_name: 'Anse',
-          description: 'Anse is a fully optimized UI for AI Chats.',
+          name: 'Project Kai',
+          short_name: 'Project Kai',
+          description: 'Project Kai: Bringing Nfts to life.',
           theme_color: '#101010',
           background_color: '#ffffff',
           icons: [
