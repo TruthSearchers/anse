@@ -4,8 +4,8 @@ import type { Provider } from '@/types/provider'
 const providerReplicate = () => {
   const provider: Provider = {
     id: 'provider-replicate',
-    icon: 'i-carbon-replicate', // @unocss-include
-    name: 'Replicate',
+    icon: 'favicon.ico', // @unocss-include
+    name: 'Project Kai',
     globalSettings: [
       {
         key: 'token',
@@ -17,13 +17,13 @@ const providerReplicate = () => {
       {
         id: 'stable-diffusion',
         type: 'image_generation',
-        name: 'Stable Diffusion',
+        name: 'Gen Img',
         settings: [],
       },
       {
         id: 'waifu-diffusion',
         type: 'image_generation',
-        name: 'Waifu Diffusion',
+        name: 'Diffusion',
         settings: [],
       },
     ],
